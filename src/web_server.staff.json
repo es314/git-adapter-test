@@ -1,0 +1,40 @@
+{
+  "id": "a936da4d-ae82-4726-b3f3-8a6b3ca0001f",
+  "tasks": [
+    {
+      "id": "dfc0e13a-5ef2-41f3-a735-ab7d62f2f442",
+      "_ref": "pin-a-task",
+      "name": "Pin a Task",
+      "description": "You need to have at least one task pinned to your dashboard.",
+      "route": "/dashboard/tasks",
+      "level": 5,
+      "status": "ACTIVE",
+      "source": "auto",
+      "lastModified": "2018-07-14T18:28:34.354Z",
+      "createdOn": "2018-07-13T19:36:17.393Z",
+      "completedOn": null
+    }
+  ],
+  "name": "Web Server",
+  "description": "Test",
+  "stackTypeCode": "EXPRESS_WEB_SERVER",
+  "gitHubConfig": {
+    "repoName": "git-adapter-test",
+    "repoId": 140504916,
+    "username": "es314",
+    "_finished": true
+  },
+  "scaffoldConfig": {
+    "scaffoldingPath": "src",
+    "devServer": "http://localhost:3004/api/",
+    "_finished": true
+  },
+  "webServer": {
+    "settings": {
+      "name": "My Awesome Server",
+      "defaultPort": 3000,
+      "platform": "javascript-express",
+      "_finished": true
+    }
+  }
+}
