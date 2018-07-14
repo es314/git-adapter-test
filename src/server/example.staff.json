@@ -1,0 +1,32 @@
+{
+  "id": "292d3860-0b58-476a-b134-76f90032016a",
+  "tasks": [
+    {
+      "id": "8d07018b-ad3f-4732-b7f3-1046e73391ac",
+      "_ref": "pin-a-task",
+      "name": "Pin a Task",
+      "description": "You need to have at least one task pinned to your dashboard.",
+      "route": "/dashboard/tasks",
+      "level": 5,
+      "status": "ACTIVE",
+      "source": "auto",
+      "lastModified": "2018-07-14T18:08:54.274Z",
+      "createdOn": "2018-07-14T18:08:54.274Z",
+      "completedOn": null
+    }
+  ],
+  "name": "Example",
+  "description": "Example",
+  "stackTypeCode": "WEB_SERVER",
+  "gitHubConfig": {
+    "repoName": "git-adapter-test",
+    "repoId": 140504916,
+    "username": "es314",
+    "_finished": true
+  },
+  "scaffoldConfig": {
+    "scaffoldingPath": "src/server",
+    "devServer": "http://localhost:3004/api/",
+    "_finished": true
+  }
+}
