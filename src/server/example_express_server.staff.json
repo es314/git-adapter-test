@@ -10,7 +10,7 @@
       "level": 5,
       "status": "ACTIVE",
       "source": "auto",
-      "lastModified": "2018-07-18T04:30:45.088Z",
+      "lastModified": "2018-07-18T22:04:50.176Z",
       "createdOn": "2018-07-18T04:30:45.088Z",
       "completedOn": null
     }
@@ -27,8 +27,19 @@
   "scaffoldConfig": {
     "scaffoldingPath": "src/server",
     "devServer": "http://localhost:3004/api/",
-    "subscriptionType": "open-source",
+    "subscriptionType": "os-mit",
     "subsriptionStatus": "expired",
-    "_finished": true
+    "_finished": true,
+    "expirationDate": "2018-07-25",
+    "subscriptionStatus": "active"
+  },
+  "webServer": {
+    "settings": {
+      "name": "Example Server",
+      "defaultPort": 3000,
+      "platform": "javascript-express",
+      "nodeLanguage": "node",
+      "_finished": true
+    }
   }
 }
