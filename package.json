@@ -1,5 +1,5 @@
 {
-  "name": "Web Server",
+  "name": "lh-web-server",
   "version": "1.0.0",
   "description": "Web Server",
   "main": "src/server/index.js",
