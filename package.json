@@ -1,0 +1,10 @@
+{
+  "name": "Web Server",
+  "version": "1.0.0",
+  "description": "Web Server",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "postinstall": "cd src/server && npm install"
+  }
+}
