@@ -1,0 +1,33 @@
+{
+  "id": "899b5c73-c79e-4dd9-9ac6-3e79665594cc",
+  "tasks": [
+    {
+      "id": "a96f4700-c536-4f93-bbc2-c93967e5fb57",
+      "_ref": "pin-a-task",
+      "name": "Pin a Task",
+      "description": "You need to have at least one task pinned to your dashboard.",
+      "route": "/dashboard/tasks",
+      "level": 5,
+      "status": "ACTIVE",
+      "source": "auto",
+      "lastModified": "2018-07-25T23:20:40.011Z",
+      "createdOn": "2018-07-25T23:20:40.011Z",
+      "completedOn": null
+    }
+  ],
+  "scaffoldType": "WEB_SERVER",
+  "name": "Micro Service 1",
+  "gitHubConfig": {
+    "repoName": "git-adapter-test",
+    "repoId": 140504916,
+    "username": "es314",
+    "_finished": true
+  },
+  "scaffoldConfig": {
+    "scaffoldingPath": "/micro-services/service1",
+    "devServer": "http://localhost:3004/api/",
+    "subscriptionType": "open-source",
+    "subsriptionStatus": "expired",
+    "_finished": true
+  }
+}
