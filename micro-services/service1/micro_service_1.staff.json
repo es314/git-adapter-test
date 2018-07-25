@@ -32,7 +32,7 @@
   },
   "deploymentConfig": {
     "deploymentPlatform": "heroku",
-    "herokuAppRole": "main-web",
+    "herokuAppRole": "none",
     "_finished": true
   }
 }
