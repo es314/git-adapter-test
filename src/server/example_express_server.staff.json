@@ -10,7 +10,7 @@
       "level": 5,
       "status": "ACTIVE",
       "source": "auto",
-      "lastModified": "2018-07-23T17:19:51.173Z",
+      "lastModified": "2018-07-23T22:31:19.621Z",
       "createdOn": "2018-07-18T04:30:45.088Z",
       "completedOn": null,
       "pinned": false
@@ -42,5 +42,9 @@
       "nodeLanguage": "node",
       "_finished": true
     }
+  },
+  "deploymentConfig": {
+    "deploymentPlatform": "heroku",
+    "herokuAppRole": "none"
   }
 }
