@@ -1,7 +1,9 @@
 {
-    "name": "Web Server",
+    {# "name": "Web Server", #}
+    "name": "{{ data.settings.name }}",
     "description": "LogicHerder's Web Server scaffold for JavaScript using Node.js and Express",
-    "repository": "https://github.com/lhadam/logic-herder",
+    {# "repository": "https://github.com/lhadam/logic-herder", #}
+    "repository": "https://github.com/{{ config.gitHubConfig.username }}/{{ config.gitHubConfig.repoName }}",
     "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
     "keywords": ["node", "express", "heroku", "logic-herder"],
     "image": "heroku/nodejs"
