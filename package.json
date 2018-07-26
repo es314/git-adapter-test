@@ -1,19 +1,11 @@
 {
-  {# "name": "lh-web-server", #}
-  "name": "{{ utils.lodash.snakeCase(data.settings.name) }}",
+  
+  "name": "example_server",
   "version": "1.0.0",
   "description": "Web Server",
-  {% if not utils.lodash.isNull(config.scaffoldConfig.scaffoldingPath) and not utils.lodash.isUndefined(config.scaffoldConfig.scaffoldingPath) and not config.scaffoldConfig.scaffoldingPath == "" %}
-  "main": "{{ config.scaffoldConfig.scaffoldingPath }}/index.js",
+    "main": "src/server/index.js",
   "scripts": {
-    "start": "node {{ config.scaffoldConfig.scaffoldingPath }}/index.js",
-    "postinstall": "cd {{ config.scaffoldConfig.scaffoldingPath }} && npm install"
+    "start": "node src/server/index.js",
+    "postinstall": "cd src/server && npm install"
   }
-  {% else %}
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "postinstall": "npm install"
   }
-  {% endif %}
-}
