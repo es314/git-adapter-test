@@ -1,34 +1,19 @@
 {
-  "name": "node-express-template",
+  {# "name": "lh-web-server", #}
+  "name": "{{ utils.lodash.snakeCase(data.settings.name) }}",
   "version": "1.0.0",
-  "description": "Node Express Base Template for the LogicHerder Web Server Scaffold",
+  "description": "Web Server",
+  {% if not utils.lodash.isNull(config.scaffoldConfig.scaffoldingPath) and not utils.lodash.isUndefined(config.scaffoldConfig.scaffoldingPath) and not config.scaffoldConfig.scaffoldingPath == "" %}
+  "main": "{{ config.scaffoldConfig.scaffoldingPath }}/index.js",
+  "scripts": {
+    "start": "node {{ config.scaffoldConfig.scaffoldingPath }}/index.js",
+    "postinstall": "cd {{ config.scaffoldConfig.scaffoldingPath }} && npm install"
+  }
+  {% else %}
   "main": "index.js",
-  "engines": {
-    "node": "9.1.0",
-    "npm": "5.8.0"
-  },
   "scripts": {
     "start": "node index.js",
-    "test": "jest",
-    "publish-heroku": "cd ../../../../../../../../ && git subtree push --prefix lib/scaffolds/web-server/javascript/express/node/templates/base heroku-lh-web-server-js-express-node master || true",
-    "docker-build": "docker build -t logic-herder/node-express-web-server .",
-    "docker-start": "docker run -p 3000:3000 -v \"`pwd`\":/home/node/app -w /home/node/app --name lh-web-server-js-node-express -d node:9 npm start",
-    "docker-stop": "docker stop lh-web-server-js-node-express; docker rm lh-web-server-js-node-express",
-    "docker-run": "npm run docker-stop; npm run"
-  },
-  "keywords": [
-    "LogicHerder",
-    "WebServerScaffold",
-    "Scaffold"
-  ],
-  "author": "LogicHerder-Staff",
-  "license": "MIT",
-  "dependencies": {
-    "ansi-to-html": "^0.6.4",
-    "bluebird": "^3.5.1",
-    "express": "^4.16.3",
-    "express-request-id": "^1.4.0",
-    "morgan": "^1.9.0",
-    "winston": "^3.0.0"
+    "postinstall": "npm install"
   }
+  {% endif %}
 }
