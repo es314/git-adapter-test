@@ -1,6 +1,6 @@
 {
     
-    "name": "Example Server",
+    "name": "Test Server",
     "description": "LogicHerder's Web Server scaffold for JavaScript using Node.js and Express",
     
     "repository": "https://github.com/es314/git-adapter-test",

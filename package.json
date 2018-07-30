@@ -1,11 +1,11 @@
 {
   
-  "name": "example_server",
+  "name": "test_server",
   "version": "1.0.0",
   "description": "Web Server",
-    "main": "src/server/index.js",
+    "main": "/api-server//index.js",
   "scripts": {
-    "start": "node src/server/index.js",
-    "postinstall": "cd src/server && npm install"
+    "start": "node /api-server//index.js",
+    "postinstall": "cd /api-server/ && npm install"
   }
   }
