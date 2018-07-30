@@ -1,0 +1,9 @@
+{
+    "name": "LogicHerder Web Server Scaffold (Node / Express)",
+    "description": "LogicHerder's Web Server scaffold for JavaScript using Node.js and Express",
+    "repository": "https://github.com/lhadam/logic-herder",
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+    "keywords": ["node", "express", "heroku", "logic-herder"],
+    "image": "heroku/nodejs"
+  }
+  
