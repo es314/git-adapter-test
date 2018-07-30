@@ -3,9 +3,9 @@
   "name": "test_server",
   "version": "1.0.0",
   "description": "Web Server",
-    "main": "/api-server//index.js",
+  "main": "/api-server//index.js",
   "scripts": {
     "start": "node /api-server//index.js",
     "postinstall": "cd /api-server/ && npm install"
   }
-  }
+}
