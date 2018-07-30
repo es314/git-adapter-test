@@ -1,3 +1,6 @@
-const { startup } = require('./src');
 
-startup();
+module.exports = {
+    startServer: require('./startServer'),
+    createServer: require('./createServer'),
+    configureServer: require('./configureServer')
+}
