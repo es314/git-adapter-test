@@ -10,7 +10,7 @@
       "level": 5,
       "status": "ACTIVE",
       "source": "auto",
-      "lastModified": "2018-07-29T16:37:21.972Z",
+      "lastModified": "2018-07-30T05:14:22.635Z",
       "createdOn": "2018-07-29T16:37:21.972Z",
       "completedOn": null
     }
@@ -30,5 +30,28 @@
     "subscriptionType": "open-source",
     "subscriptionStatus": "expired",
     "_finished": true
+  },
+  "webServer": {
+    "endpoints": [
+      {
+        "name": "Main Content",
+        "baseUrl": "/",
+        "endpointType": "ROUTE_BASED",
+        "endpointModule": "/public",
+        "id": "f4be2b66-54bf-469c-afac-b6bb3daf836c",
+        "lastModified": "2018-07-30T05:11:04.946Z",
+        "createdOn": "2018-07-29T23:18:14.719Z"
+      },
+      {
+        "name": "REST CRUD API",
+        "baseUrl": "/data-api",
+        "endpointType": "SCAFFOLD",
+        "endpointModule": "/rest-crud-api",
+        "id": "bb85bcf6-0349-4d12-b0b9-18a463cb2431",
+        "scaffoldType": "CRUD_API",
+        "lastModified": "2018-07-30T05:14:22.634Z",
+        "createdOn": "2018-07-30T05:14:22.634Z"
+      }
+    ]
   }
 }
