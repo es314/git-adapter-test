@@ -10,7 +10,7 @@
       "level": 5,
       "status": "ACTIVE",
       "source": "auto",
-      "lastModified": "2018-07-30T05:14:22.635Z",
+      "lastModified": "2018-07-30T07:00:11.111Z",
       "createdOn": "2018-07-29T16:37:21.972Z",
       "completedOn": null
     }
@@ -27,21 +27,13 @@
   "scaffoldConfig": {
     "scaffoldingPath": "/api-server/",
     "devServer": "http://localhost:3004/api",
-    "subscriptionType": "open-source",
-    "subscriptionStatus": "expired",
-    "_finished": true
+    "subscriptionType": "os-mit",
+    "subscriptionStatus": "active",
+    "_finished": true,
+    "expirationDate": "2018-08-06"
   },
   "webServer": {
     "endpoints": [
-      {
-        "name": "Main Content",
-        "baseUrl": "/",
-        "endpointType": "ROUTE_BASED",
-        "endpointModule": "/public",
-        "id": "f4be2b66-54bf-469c-afac-b6bb3daf836c",
-        "lastModified": "2018-07-30T05:11:04.946Z",
-        "createdOn": "2018-07-29T23:18:14.719Z"
-      },
       {
         "name": "REST CRUD API",
         "baseUrl": "/data-api",
@@ -51,7 +43,28 @@
         "scaffoldType": "CRUD_API",
         "lastModified": "2018-07-30T05:14:22.634Z",
         "createdOn": "2018-07-30T05:14:22.634Z"
+      },
+      {
+        "name": "Main Content",
+        "baseUrl": "/",
+        "endpointType": "STATIC",
+        "endpointModule": "/public",
+        "id": "6dd9c926-4c3b-475b-a13b-455654e990dc",
+        "lastModified": "2018-07-30T06:59:07.054Z",
+        "createdOn": "2018-07-30T06:59:07.054Z"
       }
-    ]
+    ],
+    "settings": {
+      "name": "Test Server",
+      "defaultPort": 3003,
+      "platform": "javascript-express",
+      "nodeLanguage": "node",
+      "_finished": true
+    }
+  },
+  "deploymentConfig": {
+    "deploymentPlatform": "heroku",
+    "herokuAppRole": "main-web",
+    "_finished": true
   }
 }
