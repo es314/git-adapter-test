@@ -1,7 +1,9 @@
 {
-    "name": "LogicHerder Web Server Scaffold (Node / Express)",
+    
+    "name": "Test Server",
     "description": "LogicHerder's Web Server scaffold for JavaScript using Node.js and Express",
-    "repository": "https://github.com/lhadam/logic-herder",
+    
+    "repository": "https://github.com/es314/git-adapter-test",
     "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
     "keywords": ["node", "express", "heroku", "logic-herder"],
     "image": "heroku/nodejs"
