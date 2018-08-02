@@ -10,7 +10,7 @@ function configureRoutes(app, config){
     info("configuring static routes");
 
     let staticPath = "";
-    staticPath = path.resolve(__dirname, '../../../../public');
+    staticPath = path.resolve(__dirname, '../../../../../public');
     info(`configuring / to serve from: ${staticPath}`);
     app.use('/', express.static(staticPath));
 
