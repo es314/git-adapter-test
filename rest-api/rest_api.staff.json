@@ -18,8 +18,8 @@
   },
   "issues": [
     {
-      "id": "02c1f8d8-4416-484e-a151-c62c2d104641",
-      "route": "/dashboard/issues/02c1f8d8-4416-484e-a151-c62c2d104641",
+      "id": "426d4424-f04c-4287-bff4-26d4b4023baa",
+      "route": "/dashboard/issues/426d4424-f04c-4287-bff4-26d4b4023baa",
       "ref": "settings.invalid-scaffold-config",
       "name": "Invalid Scaffold Config",
       "link": "/settings",
@@ -29,5 +29,25 @@
         "status": "no-expiration-date"
       }
     }
-  ]
+  ],
+  "restApi": {
+    "routes": [
+      {
+        "baseUrl": "/home",
+        "routeType": "GET",
+        "restApiModule": "micro-services",
+        "moduleType": "SCAFFOLD",
+        "id": "25150644-d8ba-4a8c-bd0b-a34a2f460144",
+        "scaffoldType": "MODULE_LIBRARY",
+        "lastModified": "2018-08-02T13:28:19.261Z",
+        "createdOn": "2018-08-02T13:21:11.667Z",
+        "name": "GET /home"
+      }
+    ],
+    "settings": {
+      "name": "Cool Endpoint",
+      "logPerformanceInfo": true,
+      "_finished": true
+    }
+  }
 }
