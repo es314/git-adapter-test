@@ -18,8 +18,8 @@
   },
   "issues": [
     {
-      "id": "d548bfb3-d56c-447c-9bb4-5f943f4cb4b1",
-      "route": "/dashboard/issues/d548bfb3-d56c-447c-9bb4-5f943f4cb4b1",
+      "id": "55bafc7c-4b95-4a7a-8ef3-1d8af07615f1",
+      "route": "/dashboard/issues/55bafc7c-4b95-4a7a-8ef3-1d8af07615f1",
       "ref": "settings.invalid-scaffold-config",
       "name": "Invalid Scaffold Config",
       "link": "/settings",
@@ -29,5 +29,98 @@
         "status": "no-expiration-date"
       }
     }
-  ]
+  ],
+  "dataModel": {
+    "domainTypes": [
+      {
+        "name": "numeric-id",
+        "description": "Numeric Id",
+        "logicalType": "increments",
+        "uniqueness": "primary-key",
+        "id": "c3d1c375-8f04-4266-99ee-75b79e74fd89",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      },
+      {
+        "name": "name",
+        "description": "Name",
+        "logicalType": "string",
+        "length": 400,
+        "uniqueness": "none",
+        "id": "6e31d102-3187-4ab1-b9af-d82debbfe1cd",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      },
+      {
+        "name": "timestamp",
+        "description": "Timestamp",
+        "logicalType": "timestamp",
+        "id": "8d13cec3-a0a3-495f-8a6d-dd78c7774c7b",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      },
+      {
+        "name": "description",
+        "description": "Description",
+        "logicalType": "string",
+        "length": 4000,
+        "uniqueness": "none",
+        "id": "b1b2d36f-771c-4b85-a45b-a7823e06cacb",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      },
+      {
+        "name": "code",
+        "description": "Code",
+        "logicalType": "string",
+        "length": 255,
+        "uniqueness": "primary-key",
+        "id": "0dde8fd5-1e12-4c3c-9f51-9bcef6eb6396",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      },
+      {
+        "name": "custom-fields",
+        "description": "Custom Fields",
+        "logicalType": "json",
+        "id": "8d424760-c521-4f3c-84cc-acf396172409",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      },
+      {
+        "name": "email",
+        "description": "email",
+        "logicalType": "string",
+        "length": 600,
+        "uniqueness": "unique",
+        "id": "20a337be-c225-4cbe-aec2-0da74da3fcec",
+        "lastModified": "2018-08-02T12:21:04.624Z",
+        "createdOn": "2018-08-02T12:21:04.624Z"
+      }
+    ],
+    "entities": [
+      {
+        "name": "user",
+        "description": "User",
+        "type": "entity",
+        "id": "47579ba9-5e2e-4fd2-a19c-77b5cb304535",
+        "lastModified": "2018-08-02T12:18:17.784Z",
+        "createdOn": "2018-08-02T12:17:56.628Z",
+        "attributes": [
+          {
+            "name": "name",
+            "description": "name",
+            "domainType": "f928d262-25fc-408c-9c82-e0f04c5446fc",
+            "id": "2e34a654-5b5d-42c1-814f-b53d950988d3",
+            "required": true,
+            "lastModified": "2018-08-02T12:18:17.783Z",
+            "createdOn": "2018-08-02T12:18:17.783Z",
+            "isFinished": true,
+            "sortIdx": 0
+          }
+        ]
+      }
+    ],
+    "relationships": []
+  }
 }
