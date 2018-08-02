@@ -1,0 +1,33 @@
+{
+  "id": "be2be1f2-3941-49dc-a147-99ba3c6f5c0e",
+  "tasks": [],
+  "name": "REST API",
+  "scaffoldType": "REST_API",
+  "gitHubConfig": {
+    "repoName": "git-adapter-test",
+    "repoId": 140504916,
+    "username": "es314",
+    "_finished": true
+  },
+  "scaffoldConfig": {
+    "scaffoldingPath": "/rest-api",
+    "devServer": "http://localhost:3004/api",
+    "subscriptionType": "open-source",
+    "subscriptionStatus": "expired",
+    "_finished": true
+  },
+  "issues": [
+    {
+      "id": "02c1f8d8-4416-484e-a151-c62c2d104641",
+      "route": "/dashboard/issues/02c1f8d8-4416-484e-a151-c62c2d104641",
+      "ref": "settings.invalid-scaffold-config",
+      "name": "Invalid Scaffold Config",
+      "link": "/settings",
+      "message": "Subscription does not have a valid expiration date! Please renew your subscription!",
+      "sectionRef": "project.scaffoldConfig",
+      "metadata": {
+        "status": "no-expiration-date"
+      }
+    }
+  ]
+}
