@@ -15,5 +15,34 @@
     "subscriptionType": "open-source",
     "subscriptionStatus": "expired",
     "_finished": true
+  },
+  "issues": [
+    {
+      "id": "c6a96ff4-ef8f-4c0e-9353-4755e1bc16e1",
+      "route": "/dashboard/issues/c6a96ff4-ef8f-4c0e-9353-4755e1bc16e1",
+      "ref": "settings.invalid-scaffold-config",
+      "name": "Invalid Scaffold Config",
+      "link": "/settings",
+      "message": "Subscription does not have a valid expiration date! Please renew your subscription!",
+      "sectionRef": "project.scaffoldConfig",
+      "metadata": {
+        "status": "no-expiration-date"
+      }
+    }
+  ],
+  "webServer": {
+    "settings": {
+      "name": "Demo Server",
+      "defaultPort": 4000,
+      "platform": "javascript-express",
+      "nodeLanguage": "node",
+      "_finished": true
+    },
+    "endpoints": []
+  },
+  "deploymentConfig": {
+    "deploymentPlatform": "heroku",
+    "herokuAppRole": "main-web",
+    "_finished": true
   }
 }
