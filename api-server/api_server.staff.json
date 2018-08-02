@@ -35,22 +35,12 @@
   "webServer": {
     "endpoints": [
       {
-        "name": "REST CRUD API",
-        "baseUrl": "/data-api",
-        "endpointType": "SCAFFOLD",
-        "endpointModule": "/rest-crud-api",
-        "id": "bb85bcf6-0349-4d12-b0b9-18a463cb2431",
-        "scaffoldType": "CRUD_API",
-        "lastModified": "2018-07-30T05:14:22.634Z",
-        "createdOn": "2018-07-30T05:14:22.634Z"
-      },
-      {
         "name": "Main Content",
         "baseUrl": "/",
         "endpointType": "STATIC",
-        "endpointModule": "/public",
+        "endpointModule": "public",
         "id": "6dd9c926-4c3b-475b-a13b-455654e990dc",
-        "lastModified": "2018-07-30T06:59:07.054Z",
+        "lastModified": "2018-08-02T13:56:44.198Z",
         "createdOn": "2018-07-30T06:59:07.054Z"
       }
     ],
@@ -69,7 +59,7 @@
   },
   "issues": [],
   "gitHubCache": {
-    "cacheUpdated": "2018-08-02T07:02:30.532Z",
+    "cacheUpdated": "2018-08-02T13:58:12.933Z",
     "bugs": [
       {
         "url": "https://api.github.com/repos/es314/git-adapter-test/issues/1",
@@ -211,5 +201,8 @@
         "route": "/dashboard/sections/bb85bcf6-0349-4d12-b0b9-18a463cb2431"
       }
     }
-  ]
+  ],
+  "restApi": {
+    "routes": []
+  }
 }
