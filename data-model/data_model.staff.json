@@ -1,0 +1,33 @@
+{
+  "id": "24d04824-e194-4c55-9318-c3b1692db451",
+  "tasks": [],
+  "name": "Data Model",
+  "scaffoldType": "DATA_API",
+  "gitHubConfig": {
+    "repoName": "git-adapter-test",
+    "repoId": 140504916,
+    "username": "es314",
+    "_finished": true
+  },
+  "scaffoldConfig": {
+    "scaffoldingPath": "/data-model",
+    "devServer": "http://localhost:3004/api",
+    "subscriptionType": "open-source",
+    "subscriptionStatus": "expired",
+    "_finished": true
+  },
+  "issues": [
+    {
+      "id": "d548bfb3-d56c-447c-9bb4-5f943f4cb4b1",
+      "route": "/dashboard/issues/d548bfb3-d56c-447c-9bb4-5f943f4cb4b1",
+      "ref": "settings.invalid-scaffold-config",
+      "name": "Invalid Scaffold Config",
+      "link": "/settings",
+      "message": "Subscription does not have a valid expiration date! Please renew your subscription!",
+      "sectionRef": "project.scaffoldConfig",
+      "metadata": {
+        "status": "no-expiration-date"
+      }
+    }
+  ]
+}
