@@ -1,0 +1,19 @@
+{
+  "id": "5c0b4b6b-6824-4a6f-bbed-a30f36983118",
+  "tasks": [],
+  "name": "Demo Web Server",
+  "scaffoldType": "WEB_SERVER",
+  "gitHubConfig": {
+    "repoName": "git-adapter-test",
+    "repoId": 140504916,
+    "username": "es314",
+    "_finished": true
+  },
+  "scaffoldConfig": {
+    "scaffoldingPath": "/demo-scaffold",
+    "devServer": "https://logic-herder-staging.herokuapp.com/api",
+    "subscriptionType": "open-source",
+    "subscriptionStatus": "expired",
+    "_finished": true
+  }
+}
