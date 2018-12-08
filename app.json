@@ -4,7 +4,7 @@
     "description": "LogicHerder's Web Server scaffold for JavaScript using Node.js and Express",
     
     "repository": "https://github.com/es314/git-adapter-test",
-    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+    "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started@master/public/node.svg",
     "keywords": ["node", "express", "heroku", "logic-herder"],
     "image": "heroku/nodejs"
   }
