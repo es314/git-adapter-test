@@ -12,24 +12,12 @@
   "scaffoldConfig": {
     "scaffoldingPath": "/rest-api",
     "devServer": "http://localhost:3004/api",
-    "subscriptionType": "open-source",
-    "subscriptionStatus": "expired",
-    "_finished": true
+    "subscriptionType": "os-mit",
+    "subscriptionStatus": "active",
+    "_finished": true,
+    "expirationDate": "2020-04-13"
   },
-  "issues": [
-    {
-      "id": "426d4424-f04c-4287-bff4-26d4b4023baa",
-      "route": "/dashboard/issues/426d4424-f04c-4287-bff4-26d4b4023baa",
-      "ref": "settings.invalid-scaffold-config",
-      "name": "Invalid Scaffold Config",
-      "link": "/settings",
-      "message": "Subscription does not have a valid expiration date! Please renew your subscription!",
-      "sectionRef": "project.scaffoldConfig",
-      "metadata": {
-        "status": "no-expiration-date"
-      }
-    }
-  ],
+  "issues": [],
   "restApi": {
     "routes": [
       {
