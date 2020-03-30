@@ -37,5 +37,169 @@
       "logPerformanceInfo": true,
       "_finished": true
     }
+  },
+  "gitHubCache": {
+    "cacheUpdated": "2020-03-30T14:46:08.181Z",
+    "bugs": [
+      {
+        "url": "https://api.github.com/repos/es314/git-adapter-test/issues/1",
+        "repositoryUrl": "https://api.github.com/repos/es314/git-adapter-test",
+        "labels": [
+          {
+            "id": 990093686,
+            "nodeId": "MDU6TGFiZWw5OTAwOTM2ODY=",
+            "url": "https://api.github.com/repos/es314/git-adapter-test/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 990093692,
+            "nodeId": "MDU6TGFiZWw5OTAwOTM2OTI=",
+            "url": "https://api.github.com/repos/es314/git-adapter-test/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "008672",
+            "default": true,
+            "description": "Extra attention is needed"
+          }
+        ],
+        "comments": 0,
+        "commentsUrl": "https://api.github.com/repos/es314/git-adapter-test/issues/1/comments",
+        "eventsUrl": "https://api.github.com/repos/es314/git-adapter-test/issues/1/events",
+        "htmlUrl": "https://github.com/es314/git-adapter-test/issues/1",
+        "id": 346807030,
+        "nodeId": "MDU6SXNzdWUzNDY4MDcwMzA=",
+        "number": 1,
+        "title": "Test Issue",
+        "user": {
+          "login": "es314",
+          "id": 40766094,
+          "nodeId": "MDQ6VXNlcjQwNzY2MDk0",
+          "avatarUrl": "https://avatars3.githubusercontent.com/u/40766094?v=4",
+          "gravatarId": "",
+          "url": "https://api.github.com/users/es314",
+          "htmlUrl": "https://github.com/es314",
+          "followersUrl": "https://api.github.com/users/es314/followers",
+          "subscriptionsUrl": "https://api.github.com/users/es314/subscriptions",
+          "organizationsUrl": "https://api.github.com/users/es314/orgs",
+          "reposUrl": "https://api.github.com/users/es314/repos",
+          "receivedEventsUrl": "https://api.github.com/users/es314/received_events",
+          "type": "User",
+          "siteAdmin": false
+        },
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "createdAt": "2018-08-01T23:33:42.000Z",
+        "updatedAt": "2018-08-02T00:27:11.000Z",
+        "closedAt": null,
+        "authorAssociation": "OWNER",
+        "body": "Look at me"
+      }
+    ],
+    "features": [
+      {
+        "url": "https://api.github.com/repos/es314/git-adapter-test/issues/3",
+        "repositoryUrl": "https://api.github.com/repos/es314/git-adapter-test",
+        "labels": [
+          {
+            "id": 1011981212,
+            "nodeId": "MDU6TGFiZWwxMDExOTgxMjEy",
+            "url": "https://api.github.com/repos/es314/git-adapter-test/labels/feature",
+            "name": "feature",
+            "color": "808000",
+            "default": false,
+            "description": null
+          }
+        ],
+        "comments": 0,
+        "commentsUrl": "https://api.github.com/repos/es314/git-adapter-test/issues/3/comments",
+        "eventsUrl": "https://api.github.com/repos/es314/git-adapter-test/issues/3/events",
+        "htmlUrl": "https://github.com/es314/git-adapter-test/issues/3",
+        "id": 347123864,
+        "nodeId": "MDU6SXNzdWUzNDcxMjM4NjQ=",
+        "number": 3,
+        "title": "Home Page",
+        "user": {
+          "login": "es314",
+          "id": 40766094,
+          "nodeId": "MDQ6VXNlcjQwNzY2MDk0",
+          "avatarUrl": "https://avatars3.githubusercontent.com/u/40766094?v=4",
+          "gravatarId": "",
+          "url": "https://api.github.com/users/es314",
+          "htmlUrl": "https://github.com/es314",
+          "followersUrl": "https://api.github.com/users/es314/followers",
+          "subscriptionsUrl": "https://api.github.com/users/es314/subscriptions",
+          "organizationsUrl": "https://api.github.com/users/es314/orgs",
+          "reposUrl": "https://api.github.com/users/es314/repos",
+          "receivedEventsUrl": "https://api.github.com/users/es314/received_events",
+          "type": "User",
+          "siteAdmin": false
+        },
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "createdAt": "2018-08-02T18:26:06.000Z",
+        "updatedAt": "2018-08-02T18:26:06.000Z",
+        "closedAt": null,
+        "authorAssociation": "OWNER",
+        "body": "I don't have a default index.html"
+      },
+      {
+        "url": "https://api.github.com/repos/es314/git-adapter-test/issues/2",
+        "repositoryUrl": "https://api.github.com/repos/es314/git-adapter-test",
+        "labels": [
+          {
+            "id": 1011981212,
+            "nodeId": "MDU6TGFiZWwxMDExOTgxMjEy",
+            "url": "https://api.github.com/repos/es314/git-adapter-test/labels/feature",
+            "name": "feature",
+            "color": "808000",
+            "default": false,
+            "description": null
+          }
+        ],
+        "comments": 0,
+        "commentsUrl": "https://api.github.com/repos/es314/git-adapter-test/issues/2/comments",
+        "eventsUrl": "https://api.github.com/repos/es314/git-adapter-test/issues/2/events",
+        "htmlUrl": "https://github.com/es314/git-adapter-test/issues/2",
+        "id": 346864843,
+        "nodeId": "MDU6SXNzdWUzNDY4NjQ4NDM=",
+        "number": 2,
+        "title": "Queue",
+        "user": {
+          "login": "es314",
+          "id": 40766094,
+          "nodeId": "MDQ6VXNlcjQwNzY2MDk0",
+          "avatarUrl": "https://avatars3.githubusercontent.com/u/40766094?v=4",
+          "gravatarId": "",
+          "url": "https://api.github.com/users/es314",
+          "htmlUrl": "https://github.com/es314",
+          "followersUrl": "https://api.github.com/users/es314/followers",
+          "subscriptionsUrl": "https://api.github.com/users/es314/subscriptions",
+          "organizationsUrl": "https://api.github.com/users/es314/orgs",
+          "reposUrl": "https://api.github.com/users/es314/repos",
+          "receivedEventsUrl": "https://api.github.com/users/es314/received_events",
+          "type": "User",
+          "siteAdmin": false
+        },
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [],
+        "milestone": null,
+        "createdAt": "2018-08-02T05:29:58.000Z",
+        "updatedAt": "2018-08-02T05:29:58.000Z",
+        "closedAt": null,
+        "authorAssociation": "OWNER",
+        "body": "The queue needs to be cool!"
+      }
+    ],
+    "tasks": []
   }
 }
